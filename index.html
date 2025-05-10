@@ -6,10 +6,18 @@
     <link rel="stylesheet" href="./style.css" />
     <script src="./app.js" defer></script>
     <title>Image Gallery</title>
+    <h2 id="gallery-title">Image Gallery</h2>
   </head>
 
   <body>
-    <div id="thumbnail-container"></div>
-    <div id="main-image-container"></div>
+    <div id="thumbnail-strip-wrapper">
+      <div id="thumbnail-container"></div>
+    </div>
+
+    <div id="main-image-wrapper">
+      <div id="main-image-container"></div>
+      <button id="prev-btn" class="nav-btn">⟨</button>
+      <button id="next-btn" class="nav-btn">⟩</button>
+    </div>
   </body>
 </html>
