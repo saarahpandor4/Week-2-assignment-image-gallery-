@@ -65,6 +65,18 @@ let images = [
     width: 300,
     height: 200,
   },
+  {
+    src: "https://images.unsplash.com/photo-1598472767213-4b64a946dd12?q=80&w=2953&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Leopard on the snow",
+    width: 300,
+    height: 200,
+  },
+  {
+    src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    alt: "Foggy mountain with a background sunrise",
+    width: 300,
+    height: 200,
+  },
 ];
 
 console.log("testing");
